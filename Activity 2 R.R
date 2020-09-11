@@ -230,9 +230,18 @@ pnorm (700,
        mean(AnnualPRCP$AnnualPRCP[AnnualPRCP$NAME == 1],na.rm = TRUE),
        sd(AnnualPRCP$AnnualPRCP[AnnualPRCP$NAME == 1],na.rm = TRUE))
      
+help("integer")
 
 help("factor")
 str(datW)
 
-integer <- c(2.2,2.1,2.3,2.4,2.5)
-integer <- c(2,2,2,2,2)
+
+
+
+chrvector <- c("a","b","c","d","e")
+numericvector <- c(1,2,3,4,5)
+as.integer(11,12,13,14,15)
+as.factor(chr)
+
+
+
